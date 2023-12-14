@@ -1,0 +1,695 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.boss{
+    height: 600px;
+    /*background-color: purple;*/
+    /*background-image: url('../mypictures/InnoSync00.jpg');*/
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+}
+
+nav {
+    /*background-color: red;*/
+    /*color: #fff;*/
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-bloc{
+    float: left;
+    /*border: 1px solid black;*/
+    height: 255px;
+    width: 777px;
+    margin-top: 225px;
+}
+
+.gros-titre{
+    font-size: 50px;
+    color: white;
+    font-weight: 549;
+    /* text-align: justify;*/
+}
+
+.not{
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+
+.dine00{
+    height: 111px;
+    width: 555px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.my-co{
+    list-style-type: disc;
+}
+
+.da-gib{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: -495px;
+}
+.big-button{
+    display: block;
+    height: 70px;
+    width: 198px;
+    padding-top: 24px;
+    border: 1px solid white;
+    content: center;
+    background-color: white;
+}
+
+.my-networks{
+    display: inline-block;
+    padding: 12px;
+    padding-top: 15px;
+    text-decoration: none;
+    color: black !important;
+    font-size: 1rem;
+}
+
+.my-networks i{
+    padding: 5px;
+}
+
+nav .mainMenu {
+    display: flex;
+    list-style: none;
+}
+
+nav .mainMenu li a {
+    display: inline-block;
+    padding: 12px;
+    padding-top: 18px;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+nav .mainMenu li a:hover {
+        /*background: rgb(255, 94, 0);*/
+        color: rgb(64, 88, 124);
+}
+
+nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+nav .mainMenu .closeMenu,
+.icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+.fa-facebook:hover {
+    color: rgb(0, 110, 255);
+}
+
+.fa-instagram:hover {
+    color: rgb(86, 154, 243);
+}
+
+.fa-twitter:hover {
+    color: rgb(255, 0, 191);
+}
+
+.fa-github:hover {
+    color: rgb(255, 123, 0);
+}
+
+nav .logo {
+    margin: 6px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+    /*NICOLAS WIDE*/
+.yes{
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    color: white;   
+}
+.one{
+    /*margin-top: -100px;*/
+    height: 225px/*588px*/;
+    width: 100%;
+    padding-top: 55px;
+    padding-left: 175px;
+    background-color: white;
+    /*border: 2px solid red;*/
+}
+
+.dos{
+    height: 225px/*588px*/;
+    width: 100%;
+    padding-top: 55px;
+    padding-left: 175px;
+    background-color: white;
+    /*border: 2px solid red;*/
+}
+
+.tres{
+    height: 225px/*588px*/;
+    width: 100%;
+    padding-top: 55px;
+    padding-left: 175px;
+    background-color: white;
+    /*border: 2px solid red;*/
+}
+
+.cuatros{
+    height: 225px/*588px*/;
+    width: 100%;
+    padding-top: 55px;
+    padding-left: 175px;
+    background-color: white;
+    /*border: 2px solid red;*/
+}
+
+.cinco{
+    height: 225px/*588px*/;
+    width: 100%;
+    padding-top: 55px;
+    padding-left: 175px;
+    background-color: white;
+    /*border: 2px solid red;*/
+}
+
+.seis{
+    height: 225px/*588px*/;
+    width: 100%;
+    padding-top: 55px;
+    padding-left: 175px;
+    background-color: white;
+    /*border: 2px solid red;*/
+}
+
+.siete{
+    height: 225px/*588px*/;
+    width: 100%;
+    padding-top: 55px;
+    padding-left: 175px;
+    background-color: white;
+    /*border: 2px solid red;*/
+}
+
+.ocho{
+    height: 225px/*588px*/;
+    width: 100%;
+    padding-top: 55px;
+    padding-left: 175px;
+    background-color: white;
+    /*border: 2px solid red;*/
+}
+
+/*.one_part_one
+{
+    height: 399px;
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+    padding-left: 10.50%;
+    padding-top: 88px;
+    border: 1px solid yellowgreen;
+}*/
+
+.text-key
+{
+    font-size: 35px;
+    font-weight: 505;
+    letter-spacing: normal;
+    justify-content: space-between;
+}
+
+.one_part_two
+{
+    height: 399px;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 0px;
+    padding-left: 3%;
+    display: inline-block;
+    position: relative;
+    /*border: 1px solid yellow;*/
+}
+
+.two{
+    height: 588px;
+    width: 100%;
+    background-color: white;
+}
+
+.two_part_one
+{
+    height: 399px;
+    width: 50%;
+    float: right;
+    margin-top: 24px;
+    padding-left: 65px;
+    padding-top: 88px;
+    padding-bottom: 200px;
+    /*border: 1px solid black;*/
+}
+
+.two_part_two
+{
+    height: 399px;
+    width: 50%;
+    margin-top: 24px;
+    margin-left: 0px;
+    padding-left: 9%;
+    display: inline-block;
+    position: relative;
+    /*border: 1px solid blue;*/
+}
+
+.three{
+    height: 295px;
+    width: 100%;
+    background-color: white;
+}
+
+.three_part_one
+{
+    height: 222px;
+    width: 50%;
+    float: left;
+    margin-top: 24px;
+    padding-left: 10.50%;
+    padding-top: 25px;
+    /*border: 1px solid black;*/
+}
+
+.three_part_two
+{
+    height: 222px;
+    width: 50%;
+    margin-top: 24px;
+    margin-left: 0px;
+    padding-top: 33px;
+    padding-left: 3%;
+    display: inline-block;
+    position: relative;
+    /*border: 1px solid blue;*/
+}
+
+.second-button
+{   
+    display: block;
+    height: 70px;
+    width: 198px;
+    padding-top: 24px;
+    border: 1px solid rgba(14, 14, 44, 0.86);
+    content: center;
+    background-color: rgba(14, 14, 44, 0.86);
+}
+.interligne
+{
+    line-height: 25px;
+}
+
+.ad-mail {
+    padding-left: 12px; 
+    padding-right: 12px; 
+    font-size: 20px;
+    float: left;
+    height: 70px;
+    width: 300px; 
+}
+
+.ad-mail::placeholder {
+    font-size: 20px; /* Réglez la taille de police souhaitée */
+}
+
+.adamail
+{
+    display: inline-block;
+    margin-left: 10px;
+    height: 70px;
+    width: 198px;
+    padding-top: 24px;
+    border: 1px solid rgba(14, 14, 44, 0.86);
+    content: center;
+    background-color: rgba(14, 14, 44, 0.86);
+}
+
+
+.maille
+{
+    height: 75px;
+    width: 525px;
+    padding-bottom: 2px;
+    /*border: 2px solid red;*/
+}
+
+.captures
+{
+    height: 500px;
+    width: 500px;
+    margin-bottom: 15px;
+}
+
+/* Style pour le footer */
+footer {
+    background: black;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    height: 270px; /* Hauteur du footer */
+}
+
+/* Style pour le contenu du footer */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    color: #f0f0f0;
+}
+
+/* Style pour la colonne de gauche */
+.left-column {
+    width: 50%;
+    text-align: left;
+    /*margin-left: 5px;*/
+    margin-top: 50px;
+}
+
+.push-you{
+    margin-left: 188px;
+}
+
+/* Style pour la colonne de droite */
+.right-column {
+    width: 50%;
+}
+.un{
+    width: 25%;
+    text-align: left; 
+    display: inline-block; 
+    /*float: left;*/
+    margin-right: 500px; 
+    margin-top: 39px; 
+}
+.deux{
+    width: 25%;
+    text-align: left; 
+    display: block; 
+    float: right;
+    margin-right: 250px; 
+    margin-top: -100px;
+}
+
+/* Style pour les listes dans les colonnes */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style pour les éléments de liste dans les colonnes */
+ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Espacement entre les éléments de liste dans les colonnes */
+.right-column ul li {
+    margin-top: 10px;
+}
+
+
+@media(max-width: 800px) {
+    body {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    header{
+    padding-left: 0px;
+    padding-right: 0px;
+
+    }
+
+    nav .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        background: #000;
+        transition: top 1s ease;
+        display: none;
+        align-items: center;
+    }
+
+    nav .mainMenu li {
+        text-align: center;
+        /* Ajout de cette ligne pour centrer les éléments */
+    }
+
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    nav .openMenu {
+        display: block;
+    }
+
+    nav .mainMenu li a:hover {
+        background: none;
+        color: rgb(255, 123, 0);
+        font-size: 1.6rem;
+    }
+    
+    .my-networks{
+        display: none;
+    }
+
+    .icons i {
+        display: inline-block;
+        padding: 12px;
+    }
+
+    .captures
+    {
+        height: 250px;
+        width: 250px;
+        /*margin-bottom: 15px;*/
+    }
+
+    .dine00
+    {
+        height: 111px;
+        width: 90%;
+        font-size: 30px;
+        display: block;
+        /*background-color: blueviolet;*/
+        /*margin-top: 36px;*/
+        /*margin-bottom: 15px;*/
+        /*padding-top: 33px;*/
+    }
+
+
+    .first-bloc
+    {
+        float: left;
+        /*border: 1px solid black;*/
+        /*height: 255px;*/
+        width: 375px;
+        /*margin-top: 225px;*/
+    }
+
+    .big-button
+    {
+        display: block;
+        height: 70px;
+        width: 198px;
+        padding-top: 24px;
+        margin-top: 20px;
+        border: 1px solid white;
+        content: center;
+        background-color: white;
+    }
+
+    .one{
+        margin-top: 15px;
+        height: 800px;
+        width: 360px;
+        background-color: white;
+        /*border: 2px solid red;*/
+    }
+
+    .one_part_one
+    {
+        /*height: 200px;*/
+        width: 350px;
+        /*float: left;*/
+        margin-top: 1px;
+        /*padding-left: 10.50%;*/
+        padding-bottom: 375px;
+        padding-top: 55px;
+        display: block;
+        /*border: 2px solid rgb(40, 3, 153);*/
+        margin-bottom: 0px;
+    }
+
+    .one_part_two
+    {
+        height: 300px;
+        width: 350px;
+        margin-top: 444px;
+        margin-left: 0px;
+        padding-left: 25px;
+        display: block;
+        position: absolute;
+        /*border: 2px solid yellow;*/
+    }
+
+    .two{
+        margin-top: 15px;
+        height: 677px;
+        width: 360px;
+        background-color: white;
+        /*border: 2px solid red;*/
+    }
+
+    .two_part_one
+    {
+        /*height: 200px;*/
+        width: 350px;
+        float: left;
+        margin-top: 1px;
+        padding-right: 50px;
+        /*padding-bottom: 375px;*/
+        padding-top: 55px;
+        display: block;
+        /*border: 2px solid rgb(40, 3, 153);*/
+        margin-bottom: 0px;
+    }
+
+    .two_part_two
+    {
+        height: 300px;
+        width: 350px;
+        margin-top: 333px;
+        margin-left: 0px;
+        padding-left: 25px;
+        display: block;
+        position: absolute;
+        /*border: 2px solid yellow;*/
+    }
+
+    .three{
+        margin-top: 15px;
+        height: 800px;
+        width: 360px;
+        background-color: white;
+        /*border: 2px solid red;*/
+    }
+
+    .three_part_one
+    {
+        /*height: 200px;*/
+        width: 350px;
+        /*float: left;*/
+        margin-top: 1px;
+        /*padding-left: 10.50%;*/
+        /*padding-bottom: 375px;*/
+        /*padding-top: 55px;*/
+        display: block;
+        /*border: 2px solid rgb(40, 3, 153);*/
+        margin-bottom: 0px;
+    }
+
+    .three_part_two
+    {
+        /*height: 300px;*/
+        width: 350px;
+        margin-top: 300px;
+        margin-left: 0px;
+        padding-left: 25px;
+        display: block;
+        position: absolute;
+        /*border: 2px solid yellow;*/
+    }
+
+    /* Style pour le footer */
+    footer {
+        background: black;
+        color: #ffffff;
+        padding: 20px 0;
+        text-align: center;
+        /*height: 270px;  Hauteur du footer */
+    }
+
+    /* Style pour le contenu du footer */
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        color: #f0f0f0;
+    }
+
+    /* Style pour la colonne de gauche */
+    .left-column {
+        width: 50%;
+        text-align: left;
+        /*margin-left: 5px;*/
+        margin-top: 50px;
+    }
+
+    .push-you{
+        margin-left: 188px;
+    }
+
+    /* Style pour la colonne de droite */
+    .right-column {
+        width: 50%;
+        display: none;
+    }
+    .un{
+        width: 25%;
+        text-align: left; 
+        display: inline-block; 
+        /*float: left;*/
+        margin-right: 500px; 
+        margin-top: 39px; 
+    }
+    .deux{
+        width: 25%;
+        text-align: left; 
+        display: block; 
+        float: right;
+        margin-right: 250px; 
+        margin-top: -100px;
+    }
+
+}
